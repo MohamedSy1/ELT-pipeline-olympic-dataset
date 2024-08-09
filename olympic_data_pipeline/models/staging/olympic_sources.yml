@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: olympic
+    database: OLYMPICTOKYO
+    schema: PUBLIC
+    tables:
+      - name: ATHLETES
+        columns:
+          - name: PERSONNAME
+          - name: COUNTRY
+          - name: DISCIPLINE
+      - name: COACHES
+        columns:
+          - name: NAME
+          - name: COUNTRY
+          - name: DISCIPLINE
+          - name: EVENT
+      - name: ENTRIESGENDER
+        columns:
+          - name: DISCIPLINE
+          - name: FEMALE
+          - name: MALE
+          - name: TOTAL
+      - name: MEDALS
+        columns:
+          - name: TEAMCOUNTRY
+          - name: GOLD
+          - name: SILVER
+          - name: BRONZE
+          - name: TOTAL
+          - name: RANK_BY_TOTAL
