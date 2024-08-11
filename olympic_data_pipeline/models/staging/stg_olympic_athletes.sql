@@ -1,1 +1,0 @@
-SELECT * FROM {{source('olympic', 'ATHLETES')}}
