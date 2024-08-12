@@ -36,5 +36,5 @@ models:
       +materialized: view
       snowflake_warehouse: dbt_wh
     marts:
-      +materialized:
+      +materialized: table
       snowflake_warehouse: dbt_wh
