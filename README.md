@@ -14,7 +14,7 @@ This project focuses on analyzing data from the Tokyo 2021 Olympics and historic
 - Answer key questions related to athlete and country performance.
 - Provide insights into the impact of hosting the Olympics on a nation's performance.
 
-We employ the ELT (Extract, Load, Transform) process, using multiple CSV files as data sources. The data is loaded into a Snowflake Warehouse, transformed using dbt Cloud, and visualized through interactive dashboards created with Streamlit and Tableau.
+Iemploy the ELT (Extract, Load, Transform) process, using multiple CSV files as data sources. The data is loaded into a Snowflake Warehouse, transformed using dbt Cloud, and visualized through interactive dashboards created with Streamlit and Tableau.
 
 ## Visual Representations
 
@@ -34,7 +34,7 @@ This project also integrates with LangChain and OpenAI to enhance the analysis a
 
 ### How to Use LangChain and OpenAI for Querying
 
-We use LangChain to create a seamless connection between our data and OpenAI's powerful language models. This allows users to ask natural language questions about the Olympic data and receive detailed answers.
+Iuse LangChain to create a seamless connection between our data and OpenAI's powerful language models. This allows users to ask natural language questions about the Olympic data and receive detailed answers.
 
 To set this up, follow these steps:
 
