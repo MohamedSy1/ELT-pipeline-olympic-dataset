@@ -14,7 +14,7 @@ This project focuses on analyzing data from the Tokyo 2021 Olympics and historic
 - Answer key questions related to athlete and country performance.
 - Provide insights into the impact of hosting the Olympics on a nation's performance.
 
-Iemploy the ELT (Extract, Load, Transform) process, using multiple CSV files as data sources. The data is loaded into a Snowflake Warehouse, transformed using dbt Cloud, and visualized through interactive dashboards created with Streamlit and Tableau.
+I employ the ELT (Extract, Load, Transform) process, using multiple CSV files as data sources. The data is loaded into a Snowflake Warehouse, transformed using dbt Cloud, and visualized through interactive dashboards created with Streamlit and Tableau.
 
 ## Visual Representations
 
@@ -34,7 +34,7 @@ This project also integrates with LangChain and OpenAI to enhance the analysis a
 
 ### How to Use LangChain and OpenAI for Querying
 
-Iuse LangChain to create a seamless connection between our data and OpenAI's powerful language models. This allows users to ask natural language questions about the Olympic data and receive detailed answers.
+I used LangChain to create a seamless connection between our data and OpenAI's powerful language models. This allows users to ask natural language questions about the Olympic data and receive detailed answers.
 
 To set this up, follow these steps:
 
@@ -70,7 +70,7 @@ The Olympic Chatbot, powered by LangChain and OpenAI, provides answers to natura
 
 ![Screenshot 2024-08-16 at 15 46 11](https://github.com/user-attachments/assets/49bb756f-502f-473b-ad61-5d89f5edc29e)
 
-This image illustrates how a Large Language Model (LLM) can be used to transform a natural language question into a SQL query, retrieve the data from a SQL database, and then provide an answer back to the user.
+This image illustrates how a Large Language Model (LLM) can be used to transform a natural language question into a SQL query, retrieve the data from an SQL database, and then provide an answer back to the user.
 ## Data Sources
 
 - [2021 Olympics in Tokyo Dataset](#https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data)
